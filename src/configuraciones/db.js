@@ -1,9 +1,9 @@
 const sequelize = require('sequelize');
-const{USUARIO_DB,CONTRASENA_DB,NOMBRE_DB}=process.env;
+const{UsuarioBD,ContrasenaBD,NombreBD}=process.env;
 const db = new sequelize(
-    NOMBRE_DB,
-    USUARIO_DB,
-    CONTRASENA_DB,
+    NombreBD,
+    UsuarioBD,
+    ContrasenaBD,
     {
         host: 'localhost',
         port: 3306,

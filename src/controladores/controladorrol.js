@@ -1,4 +1,4 @@
-const ModeloRol = require('../modelos/modelorol');
+const ModeloRol = require('../modelos/rol');
 const { validationResult } = require('express-validator');
 
 exports.Listar= async (resq,res)=>{
