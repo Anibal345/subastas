@@ -3,7 +3,7 @@ const controladorvehiculo = require('../controladores/controladorvehiculo');
 const {body,query}=require('express-validator');
 const modelovehiculo = require('../modelos/vehiculo');
 const rutas = Router();
-//hola
+
 /**
  * @swagger
  * /vehiculo/listar:
