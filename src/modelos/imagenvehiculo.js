@@ -1,7 +1,7 @@
 const { DataTypes } = require('sequelize');
 const db = require('../configuraciones/db');
 const Vehiculo = require('./vehiculo');
-
+//aua
 const ImagenVehiculo = db.define('ImagenVehiculo', {
     id: {
         type: DataTypes.INTEGER,
